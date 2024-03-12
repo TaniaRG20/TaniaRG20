@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-image: linear-gradient(to top, #f2c682, #ead08d, #e3d99b, #dde2aa, #dae9ba);
+  
+}
+
+header {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+img {
+    border-radius:8px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 0px 30px;
+
+}
+
+h1 {
+    font-size: 24px;
+
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font: weight 600;
+    font-style: normal;
+
+}
+
+
+p {
+    font-size: 16px;
+    color: rgb(46, 46, 48);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(232, 233, 232);
+}
+
+.productos {
+
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font: weight 600;
+    font-style: normal;
+
+
+}
+
+.caja {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.promociones {
+
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.carrete {
+    height: 1000px;
+    margin-top: 10%;
+
+}
+
+.Referencias i {
+    color: rgb(0, 0, 0);
+    border: 100%;
+    border: 2px solid;
+    padding: 50px;
+    justify-content: center;
+}
+.presentacion {
+
+    width: 80%;
+    height: 10px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.rounded mx-auto d-block
+{
+    width: 50px;
+    height: 100px;
+}
+
+.productosaccesorios {
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 50px;
+}
+INSTAGRAM 
+.buttons-network {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .buttons-network {
+    position: fixed;
+    top: 30%;
+    /* bottom: 15px; */
+    left: 10px;
+  }
+  
+  .buttons-network__button {
+    width: 55px;
+    height: 55px;
+    display: block;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+  
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .buttons-network__button p {
+    display: none;
+  }
+  
+  .buttons-network__button:hover > p {
+    display: block;
+  }
+  
+  .buttons-network__button:hover {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .buttons-network__button:nth-child(1):hover {
+    color: #4267b2;
+  }
+  
+  .buttons-network__button:nth-child(2):hover {
+    color: #e1306c;
+  }
+  
+  .buttons-network__button:nth-child(3):hover {
+    color: #25d366;
+  }
+  
+  .buttons-network__button:nth-child(4):hover {
+    color: #0e76a8;
+  }
+  
